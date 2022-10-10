@@ -62,5 +62,7 @@ btn.addEventListener("click", () => {
   box.forEach((item) => {
     item.innerHTML = "";
     allPlays = [];
+    result.innerHTML = "";
   });
 });
+
