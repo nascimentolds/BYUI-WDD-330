@@ -1,23 +1,23 @@
 body {
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .btn {
-    width: 400px;
-    padding: 10px;
-    text-transform: uppercase;
-    background-color: blueviolet;
-    color: aliceblue;
-    border: none;
-    border-radius: 5px;
-    margin: 15px;
-    cursor: pointer;
+  width: 400px;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: blueviolet;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  margin: 15px;
+  cursor: pointer;
 }
 
 .bnt:hover {
-    background-color: darkviolet;
+  background-color: darkviolet;
 }
 
 .main {
@@ -32,6 +32,19 @@ align-items: center;
   border: 1px solid blueviolet;
   border-radius: 5px;
   padding: 40px;
+}
+
+.result {
+  margin: 15px;
+  display: grid;
+  width: 400px;
+  font-size: 4rem;
+  font-family: sans-serif;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  padding: 40px;
+  color: blueviolet;
+  text-align: center;
 }
 
 .box {
