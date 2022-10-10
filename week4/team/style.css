@@ -5,7 +5,7 @@ body {
 }
 
 .btn {
-  width: 400px;
+  width: 300px;
   padding: 10px;
   text-transform: uppercase;
   background-color: blueviolet;
@@ -25,8 +25,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   font-size: 4rem;
   font-family: sans-serif;
   border: 1px solid blueviolet;
@@ -37,7 +37,7 @@ body {
 .result {
   margin: 15px;
   display: grid;
-  width: 400px;
+  width: 300px;
   font-size: 4rem;
   font-family: sans-serif;
   border: 1px solid blueviolet;
@@ -77,3 +77,4 @@ body {
 .box:nth-child(9) {
   border-right: none;
 }
+
