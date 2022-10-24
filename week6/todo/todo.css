@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap");
+html {
+  font: 14px "News Cycle", sans-serif;
+}
+
+body {
+  background-color: rgb(59, 94, 63);
+}
+
+main {
+  max-width: 25rem;
+  margin: auto;
+  padding: 1rem;
+  background-color: rgb(255, 247, 225);
+}
+
+h1 {
+  margin: 0 0 1rem 0;
+}
+
+.todo-section {
+  border: 1px solid black;
+}
+
+.todo-toolbar {
+  display: grid;
+  grid-template-columns: fit-content(5em) auto;
+  margin: 0.5em 0 0.5em 0.5em;
+  caret-color: transparent;
+}
+
+.filter {
+  display: inline;
+  margin: 0;
+  justify-self: end;
+  padding: 0;
+}
+.filter li {
+  list-style-type: none;
+  display: inline;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.selected-filter {
+  background-color: rgb(165, 192, 204);
+}
+
+.todo-list {
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: fit-content(1em) auto 1.5em;
+  align-items: center;
+  border-top: 1px solid black;
+  padding: 0.5em;
+}
+.todo-item .checkbox {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 2px solid black;
+  padding: 0.8em;
+  margin: 0;
+  cursor: pointer;
+  background-color: white;
+}
+.todo-item label {
+  padding-left: 0.5em;
+  cursor: pointer;
+  margin-right: 1em;
+}
+.todo-item .checkbox:hover {
+  background-color: #d6e2e8;
+}
+.todo-item .checkbox:checked {
+  background-color: rgb(165, 192, 204);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.delete {
+  cursor: pointer;
+  caret-color: transparent;
+  justify-self: center;
+  padding: 0.5em;
+}
+
+.add-todo {
+  margin-top: 2em;
+  display: flex;
+}
+.add-todo input {
+  font: 14px "News Cycle";
+  flex-grow: 1;
+  margin-right: 0.5em;
+  padding: 0.2em 0.4em;
+}
+.add-todo .add-button {
+  font-size: 2.5em;
+  flex-basis: auto;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+@media all and (min-width: 420px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media all and (min-width: 500px) {
+  main {
+    padding: 1rem 2rem;
+  }
+}/*# sourceMappingURL=todo.css.map */
