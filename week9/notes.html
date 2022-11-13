@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 9 | Notes</title>
+  </head>
+  <body>
+    <h1>Notes for week 9</h1>
+    <section>
+      <h2>The Window Object</h2>
+      <ul>
+        <li>
+          The <code>window</code> object is the global object; contains global
+          variables and methods as its properties
+        </li>
+        <li>
+          <code>this</code> in the global scope refers to the global object
+        </li>
+        <li>
+          <code>alert()</code>, <code>confirm()</code>, and
+          <code>prompt()</code> are methods of the window object
+        </li>
+        <li>
+          The <code>Navigator</code> object contains information about the
+          browser. Access with
+          <code>window.navigator</code>
+        </li>
+        <li>
+          <code>window.location</code> contains information about the URL of the
+          current page
+        </li>
+        <li>
+          Use <code>window.history</code> to access info about history in the
+          current session
+        </li>
+      </ul>
+
+      <h2>HTML5 APIs</h2>
+      <h3>data- property</h3>
+      <ul>
+        <li>
+          <code>data-</code> attribute embeds data with an element that is
+          ignored by the browser
+        </li>
+        <li>
+          Access an element's <code>data-</code> properties with
+          <code>element.dataset.myProperty</code>
+        </li>
+      </ul>
+      <h3>Web Storage API</h3>
+      <ul>
+        <li>
+          Web Storage API (<code>localStorage</code>) lets you save key-value
+          pairs. Lots of advantages over cookies.
+        </li>
+        <li><code>localStorage.name = 'Falco';</code></li>
+        <li>
+          <code>localStorage.removeItem('name');</code> or
+          <code>delete localStorage.name</code>
+        </li>
+        <li>
+          <code>localStorage.clear()</code> removes everything stored in local
+          storage (for that domain)
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
